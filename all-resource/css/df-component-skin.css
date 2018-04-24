@@ -1,0 +1,112 @@
+/**
+ *
+ * init
+ *
+ **/
+body {
+  background-image: url(../../common/images/pw/background.png);
+  padding: 0;
+  margin: 0;
+}
+
+.body-bg-white {
+  background-image: url(../../common/images/pw/background-w.png);
+}
+
+.dataTable thead,
+.dataTable tr {
+  background-color: rgba(255, 255, 255, .2) !important;
+}
+
+.body-bg-white .dataTable thead, 
+.body-bg-white .dataTable tr {
+  background-color: rgba(68, 118, 167, .2) !important;
+}
+
+
+.dataTable tbody tr:hover,
+.dataTable tbody tr.even {
+  background-color: rgba(255, 255, 255, .3) !important;
+}
+
+.dataTable tbody tr.active {
+  background-color: rgba(255, 255, 255, .5) !important;
+}
+
+.body-bg-white .dataTable tbody tr:hover,
+.body-bg-white .dataTable tbody tr.even {
+  background-color: rgba(68, 118, 167, .3) !important;
+}
+
+.body-bg-white .dataTable tbody tr.active {
+  background-color: rgba(68, 118, 167, .5) !important;
+}
+
+table.dataTable.display tbody tr.odd > .sorting_1,
+table.dataTable.display tbody tr.even > .sorting_1,
+table.dataTable.order-column.stripe tbody tr.odd > .sorting_1, 
+table.dataTable.order-column.stripe tbody tr.even > .sorting_1 {
+  background: none !important;
+}
+
+.cus-table-comp .page-row {
+  background-color: rgba(255, 255, 255, .4) !important;
+}
+
+.body-bg-white .page-row {
+  background-color: rgba(68, 118, 167, .4) !important;
+}
+
+.page-row .page-btn .paginate_button {
+  color: #fff;
+}
+
+.body-bg-white .page-row .page-btn .paginate_button {
+  color: #333;
+}
+
+.body-bg-white .page-row .page-btn .paginate_button {
+  color: #333;
+}
+
+.container {
+  color: #fff;
+}
+
+.body-bg-white .container {
+  color: #333;
+}
+
+.component-header {
+  background-color: rgba(204, 204, 204, .1);
+}
+
+.body-bg-white .component-header {
+  color: #fff;
+  background-color: #4476A7;
+}
+
+/**
+ * fix ie8
+ **/
+.dadIE8 .dataTable thead, 
+.dadIE8 .dataTable tr:hover,
+.dadIE8 .dataTable tbody tr.active {
+  background-image: url(../../common/images/pw/combg_hover.png);
+}
+
+.body-bg-white.dadIE8 .dataTable thead,
+.body-bg-white.dadIE8 .dataTable tr:hover,
+.body-bg-white.dadIE8 .dataTable tbody tr.active {
+  background-image: url(../../common/images/pw/combg_hover-blue.png);
+}
+
+.dadIE8 .dataTable tr {
+  color: #000;
+  background-image: url(../../common/images/pw/combg.png);
+}
+
+.body-bg-white.dadIE8 .dataTable tr {
+  color: #fff;
+  background-image: url(../../common/images/pw/combg.png);
+}

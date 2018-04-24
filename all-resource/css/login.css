@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+body {background-color: #0093d7;}
+body,td{font-family:Arial,Helvetica,sans-serif,"微软雅黑";font-size:14px;color:#000;margin:0;padding:0;line-height: 22px; }
+div,h1,h2,h3,h4,p,form,label,textarea,span,body,div,dl,dt,dd,ul,ol,li,pre,fieldset,input,textarea,blockquote,emBED{margin:0;padding:0;line-height: 32px;}
+img{border:none;}
+
+.top_font{color:#ffffff;font-size:28px; padding:20px; _margin:20px;}
+.top_font_blue{color:#10a5ff;}
+
+#msgTd{color: red}
+.copyright_line{border-bottom: 1px solid #ddd; border-top: 1px solid #ddd;}
+.copyright{color:#6e7172;}
+
+a:link{color:#4f4f4f;text-decoration:none;}
+a:visited{color:#4f4f4f;text-decoration:none;}
+a:hover{color:#ff4800;text-decoration:underline;}
+a:active{color:#4f4f4f;}
+a:focus{outline:none;-moz-outline:none;}
+
+.login_bg{background-image:url(../images/right_bg.png); background-repeat:no-repeat; background-position:top; background-color:#eef9ff;}
+.input{border:1px solid #a9c5d6; height:28px; background-image:url(../images/input_bg.gif); background-repeat:no-repeat; background-repeat:repeat-x;}

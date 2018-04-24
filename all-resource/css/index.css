@@ -1,0 +1,106 @@
+
+.myTabs a {
+    position: relative;
+    max-height: 60px;
+    line-height: 60px;
+    background: #1abc9c;
+    height: 60px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    float: left;
+}
+.rightT{
+    float: right;
+}
+
+.rightT .info{
+    display: none;
+    padding-top: 46px;
+    border-radius: 3px;
+    height: 20px;
+}
+.rightT .info li,.rightT .info li a{
+    width: 76px;
+}
+.rightT  li:first-child a{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.rightT  li:last-child a{
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.myTabs a:hover, .myTabs a:focus,.myTabs .active>a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #1abc9c;
+}
+.sidebar-shortcuts {
+    max-height: 40px;
+    margin-bottom: 0;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+}
+.layui-side-scroll{
+	height: calc(100% - 50px);
+}
+.sidebar-shortcuts i{
+    padding: 2px 6px;
+}
+
+/* 侧边导航 */
+.layui-nav-tree .layui-nav-item a:hover,.layui-nav-itemed>a, .layui-nav-tree .layui-nav-title a, .layui-nav-tree .layui-nav-title a:hover,
+.layui-nav-tree .layui-nav-child dd.layui-this, .layui-nav-tree .layui-this, .layui-nav-tree .layui-this>a, .layui-nav-tree .layui-this>a:hover{
+    color: #2778EC!important;
+    background-color: #f2f2f2!important;
+}
+.layui-nav .layui-nav-item a{
+    color: #000;
+}
+dl.layui-nav-child dd a{margin-left: 15px}
+
+/*#f2f2f2*/
+.layui-nav-child dd{
+    border-bottom: 1px solid #f2f2f2;
+}
+.layui-nav-tree .layui-nav-item{
+    background-color: #ffffff;
+    border-top: 1px solid #fcfcfc;
+    border-bottom: 1px solid #e5e5e5;
+}
+.layui-nav-child .layui-nav-item{
+	background-color: #ffffff;
+    border-top: 1px solid #fcfcfc;
+    border-bottom: 1px solid #e5e5e5;
+    padding-left: 10px;
+}
+
+/* body */
+.layui-bg-black{
+    background: #ffffff;
+    border-right: 1px solid #ccc;
+}
+.layui-tab-title{
+    position: relative;
+}
+.layui-tab{
+    margin: 0px; 
+}
+.layui-nav-tree .layui-nav-more{
+	top:15px;
+	right: 10px;
+}
+.layui-tab-brief>.layui-tab-more li.layui-this:after, .layui-tab-brief>.layui-tab-title .layui-this:after{
+    border: 0px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.layui-tab-brief>.layui-tab-title .layui-this{
+    color: #000;
+    background: #ecf0f1;
+}

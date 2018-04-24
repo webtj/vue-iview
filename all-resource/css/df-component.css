@@ -1,0 +1,138 @@
+/**
+ *
+ * init
+ *
+ **/
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/**
+ *
+ * fix plugin
+ *
+ **/
+.layui-input, .layui-select {
+  width: auto;
+  height: auto;
+  padding: .3em;
+  line-height: 1;
+}
+
+.cus-table-comp .dataTable th {
+  padding: 0 !important;
+  height: 3em;
+}
+
+.cus-table-comp .dataTable tbody tr {
+  height: 35px;
+}
+
+.cus-table-comp .dataTable tbody tr td {
+  text-align: center;
+  padding: 0 !important;
+}
+
+.cus-table-comp .dataTable tbody tr:hover {
+  cursor: pointer;
+}
+
+.cus-table-comp .page-row {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  position: relative;
+}
+
+.cus-table-comp .page-row .page-length {
+  position: absolute;
+  left: 2em;
+}
+
+.cus-table-comp .page-row .page-info {
+  position: absolute;
+  left: 20em;
+}
+
+.cus-table-comp .page-row .page-info .dataTables_info {
+  padding: 0;
+}
+
+.cus-table-comp .page-row .page-btn {
+  position: absolute;
+  right: 2em;
+}
+
+.cus-table-comp .dataTables_processing {
+  position: absolute;
+  height: auto;
+}
+
+.cus-table-comp .page-btn .dataTables_paginate {
+  height: 35px;
+  margin: 0;
+  padding: 0 !important;
+}
+
+.cus-table-comp .page-row .page-btn .paginate_button {
+  padding: 0 !important;
+  cursor: pointer !important;
+  padding: 0 !important;
+  margin: 0;
+  border: none;
+  background: transparent;
+  display: inline-block;
+}
+
+.cus-table-comp .page-row .page-btn span .paginate_button {
+  width: 20px;
+  border: none;
+  background: none;
+  text-align: center;
+}
+
+.container {
+  margin: .5em;
+}
+
+.component-header {
+  width: 95%;
+  padding: .5em 0 .5em 1em;
+  margin: .5em auto 0 auto;
+}
+
+.component-body {
+  margin: .5em;
+}
+
+.area-line {
+  margin-top: .2em;
+  margin-left: 2em;
+}
+
+.line-item {
+  /* height: 2em; */
+  display: inline-block;
+}
+
+.line-item-short {
+  min-width: 10em;
+}
+
+.line-item-onlyone {
+  text-align: left;
+}
+
+.line-item  * {
+  float: left;
+  letter-spacing: normal;
+}
+
+/**
+ * fix ie8
+ **/
+
+.dadIE8 .cus-table-comp .dataTable tr {
+  background: none;
+}

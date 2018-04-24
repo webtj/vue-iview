@@ -1,0 +1,119 @@
+/* 
+    Created on : 2017-5-22, 18:10:16
+    Author     : relexgeer
+*/
+.business-tree-container{
+    border:1px solid #ccccff;
+    width:100%;
+    min-height:380px;
+    background-color: #fff;
+    /**#E8EBEB;*/
+}
+.business-tree-top{
+    cursor:default; 
+    background-color: transparent;
+}
+
+#contextmenu {
+    border: 1px solid #aaa;
+    border-bottom: 0;
+    background: #eee;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+#contextmenu li a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #aaa;
+    cursor: pointer;
+}
+
+#contextmenu li a:hover {
+    background: #fff;
+}
+
+/* 宸ュ叿鏍� */
+.jtopo_toolbar{
+    padding-left:5px;
+    background-color: rgb(216, 231, 242);
+    /*width: 100%;*/
+    height: 40px;
+}
+
+.jtopo_toolbar .layui-form-item{
+    margin-bottom:0;
+}
+
+.jtopo_toolbar .layui-btn{
+    margin-top:8px;
+    margin-left:0;
+}
+
+.jtopo_toolbar .layui-btn+.layui-btn{
+    margin-left:1px;
+}
+
+/* loading */
+.ol_loading {
+
+    width: 100%;
+
+    height:51px;
+
+    background: url( '../images/loading.gif' );
+
+    background-repeat: no-repeat;
+
+    background-position: center center;
+
+    /*display:none;*/
+
+    position:absolute;
+
+    top:40%;
+
+    z-index: 1000001;
+
+}
+
+.ol_loading_mask{
+
+    /*display:none;*/
+
+    z-index:1000000;
+
+    position:absolute;
+
+    top:0;
+
+    width:100%;
+
+    height:100%;
+    background: rgba(255,255,255, 0.3);
+    /*opacity: 0.3;*/
+
+    /*filter: alpha(opacity = 30);*/
+
+    /*background-color: #FFF;*/
+
+}
+
+.ol_loading_mask_dark{
+
+    background: rgba(0,0,0,0.5);
+
+    z-index:1000000;
+
+    position:absolute;
+
+    top:0;
+
+    width:100%;
+
+    height:100%;
+
+}

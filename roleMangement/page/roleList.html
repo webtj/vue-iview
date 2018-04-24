@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>工单管理</title>
+    <script data-main="../js/roleList/config" src="../../plugin/require/2.3.5/require.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <style type="text/css">
+    [v-cloak] {
+        display: none
+    }
+
+    body {
+        padding: 0 8px !important;
+    }
+
+    .queryModule {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background: #fff;
+        padding: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 15px;
+    }
+
+
+
+    .moduleTitle {
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+        margin-bottom: 10px;
+        height: 32px;
+    }
+
+    .moduleTitle .title {
+        font-size: 14px;
+        font-weight: bold;
+        border-left: 4px solid #31b4e2;
+        text-align: left;
+        padding-left: 5px;
+        line-height: 32px;
+    }
+
+    .queryContent {
+        margin-bottom: 10px;
+    }
+
+    .queryContent .moduleLabel {
+        /*用户搜索模块输入框前的文字描述*/
+        text-align: center;
+        line-height: 32px;
+    }
+
+    .queryButton {
+        margin-bottom: 10px;
+    }
+    </style>
+</head>
+
+<body>
+    <div v-cloak id="roleList">
+        <div class="queryModule clearPaddingBottom">
+            <Header>
+                <!--标题类-->
+                <Row class="moduleTitle clearPaddingTop">
+                    <i-col span="8">
+                        <i-col class='title' span="12">查询条件</i-col>
+                    </i-col>
+                </Row>
+            </Header>
+            <Content>
+                <!--搜索内容-->
+                <Row class="queryContent">
+                    <i-col span="8">
+                        <i-col class='moduleLabel' span="5">角色编码:</i-col>
+                        <i-col id='query_roleCode' span="12">
+                            <i-input placeholder="请输入角色编码" />
+                        </i-col>
+                    </i-col>
+                    <i-col span="8">
+                        <i-col class='moduleLabel' span="5">角色名称:</i-col>
+                        <i-col id='query_roleName' span="12">
+                            <i-input placeholder="请输入角色名称" />
+                        </i-col>
+                    </i-col>
+                </Row>
+                <!--搜索按钮-->
+                <Row class="queryButton" :gutter="16">
+                    <i-col span='2' offset="10">
+                        <i-button type="primary">查询</i-button>
+                    </i-col>
+                    <i-col span='2'>
+                        <i-button type="warning">新增</i-button>
+                    </i-col>
+                </Row>
+            </Content>
+        </div>
+        <div class="queryModule">
+            <Header>
+                <!--标题类-->
+                <Row class="moduleTitle clearPaddingTop">
+                    <i-col span="20">
+                        <i-col class='title' span="12">查询结果</i-col>
+                    </i-col>
+                    <i-col span="4" class='text-right'>
+                        <i-button type="text">
+                            <Icon type="share"></Icon>导出</i-button>
+                    </i-col>
+                </Row>
+            </Header>
+        </div>
+    </div>
+</body>
+
+</html>
